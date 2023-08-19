@@ -1,0 +1,32 @@
+  483  git init
+  484  git remote add origin https://github.com/Brenzarte/Checkpoint-BrendaZarco-180823.git
+  485  git init
+  486  git remote add origin https://github.com/Brenzarte/Checkpoint-BrendaZarco-18082023.git
+  487  git remote -v
+  488  touch main.js index.html
+  489  git add .
+  490  git commit -m "Creación de los archivos main.js e index.html"
+  491  git status
+  492  git push origin main
+  493  git checkout -b feature
+  494  git branch
+  495  mkdir Hardware Software SeguridadInformatica
+  496  touch Hardware/resumen.txt
+  497  touch Software/resumen.txt
+  498  touch SeguridadInformatica/resumen.txt
+  499  ls -a
+  500  ls -l
+  501  git add .
+  502  git status
+  503  git commit -m "Creación de las carpetas Hardware, Software y SeguridadInformatica y de los archivos resumen.txt en cada una"
+  504  git status
+  505  git push origin feature
+  506  git checkout main
+  507  git branch
+  508  mv main.js resumenHardware.txt
+  509  mv index.html resumenSoftware.txt
+  510  nano resumenHardware.txt
+  511  nano resumenSoftware.txt
+  512  history 30
+  513  touch comandos.txt
+  514  history 35 > comandos.txt
